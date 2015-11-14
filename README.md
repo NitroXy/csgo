@@ -1,6 +1,11 @@
 NitroXy CS:GO Server config
 ===========================
 
+1. Set username in `update.sh`
+2. Run `update.sh` to install/update CS:GO dedicated server.
+3. Copy files from `cfg` folder into CS:GO `cfg` folder.
+4. Run `run.sh` in a screen.
+
 Client bindings
 ---------------
 
