@@ -18,4 +18,7 @@ Optional keybindings (beware that this makes it easy to run the scripts but bewa
     bind "F9" "rcon exec knife"
     bind "F10" "rcon exec live"
     bind "F11" "rcon mp_swapteams"
-    bind "F12" "rcon mp_pause_match"
+    bind "F12" "toggle_pause"
+    alias "toggle_pause" "toggle_pause_1"
+    alias "toggle_pause_1" "rcon mp_pause_match;   alias toggle_pause toggle_pause_2"
+    alias "toggle_pause_2" "rcon mp_unpause_match; alias toggle_pause toggle_pause_1"
