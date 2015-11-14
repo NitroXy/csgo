@@ -1,4 +1,6 @@
 #!/bin/sh
 
 username="..."
-exec /home/esport/steamcmd.sh +login "${username}" +force_install_dir /home/esport/csgo +app_update 740 validate +quit
+
+dir=$(dirname $0)
+exec "${dir}/steamcmd.sh" +login "${username}" +force_install_dir "${dir}/csgo" +app_update 740 validate +quit
