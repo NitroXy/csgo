@@ -9,7 +9,7 @@ cd "${dir}/csgo"
 export PATH=$PATH:/sbin
 exec ./srcds_run -game csgo \
     -console -usercon -autoupdate -tickrate 128 \
-    -maxplayers_override 14 \
+    -maxplayers 14 -maxplayers_override 14 \
     +sv_setsteamaccount "${token}" \
     +ip 0.0.0.0 \
     +game_type "0" +game_mode "1" \
