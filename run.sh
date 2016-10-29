@@ -12,8 +12,6 @@ do
                 continue
         fi
         split=( $line )
-        echo ${split[0]}
-        echo ${split[1]}
         tokens+=( [${split[0]}]=${split[1]} )
 done < tokens.txt
 token=${tokens[$1]}
