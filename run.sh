@@ -5,7 +5,7 @@
 token="..."
 
 dir=$(dirname $0)
-cd "${dir}/csgo"
+cd "${dir}/csgo-ds"
 export PATH=$PATH:/sbin
 exec ./srcds_run -game csgo \
     -console -usercon -autoupdate -tickrate 128 \
