@@ -1,11 +1,9 @@
 NitroXy CS:GO Server config
 ===========================
 
-1. Download and install [SteamCMD](https://developer.valvesoftware.com/wiki/SteamCMD) to the same folder as the scripts.
-1. Set username and account token in `update.sh` and `run.sh`
-1. Run `update.sh` to install/update CS:GO dedicated server.
-1. Copy files from `cfg` folder into CS:GO `cfg` folder.
-1. Run `run.sh` in a screen.
+1. Add tokens to `tokens.txt`.
+1. Run `./update.sh` to install/update CS:GO dedicated server.
+1. Run `./run.sh <port>` in a screen/tmux.
 
 eBot
 ----
