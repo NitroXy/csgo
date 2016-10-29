@@ -8,7 +8,7 @@ fi
 tokens=()
 while read line
 do
-        if [[ $line == \#* ]]; then
+        if [ -z "${line// }" ] || [[ $line == \#* ]]; then
                 continue
         fi
         split=( $line )
